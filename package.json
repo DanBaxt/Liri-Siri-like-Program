@@ -1,0 +1,26 @@
+{
+  "name": "week-8-liri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanBaxt/week-8-liri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanBaxt/week-8-liri/issues"
+  },
+  "homepage": "https://github.com/DanBaxt/week-8-liri#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.85.0",
+    "twitter": "^1.7.1"
+  }
+}
