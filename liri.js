@@ -93,10 +93,13 @@ if (command === "spotify-this-song") {
 
 //do-what-it-says
 
-if (command === "do-what-it-says") {
-    fs.readFile("random.txt", "utf8", function(err, data) {
-      console.log(data);
-      //it displays the text, but won't run the spotify command
-    });
+// if (command === "do-what-it-says") {
+//     fs.readFile("random.txt", "utf8", function(err, data) {
+//       console.log(data);
+//       //it displays the text, but won't run the spotify command
+
+//       var dataArr = data.split(",")
+//       console.log(dataArr);
+//     });
     
-}
+// }
